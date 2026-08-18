@@ -1,0 +1,5 @@
+model_a,model_b,split,n,accuracy_a,accuracy_b,only_a_correct,only_b_correct,net_b_minus_a,mcnemar_exact_p,same_option_prediction
+E1_full,E1_linear,holdout_all,290,0.37931,0.37931,28,28,0,1.0,199
+E1_full,E1_linear,holdout_pmcid_disjoint,263,0.376426,0.372624,26,25,-1,1.0,178
+E1_full,E1_no_zscore,holdout_all,290,0.37931,0.375862,30,29,-1,1.0,192
+E1_full,E1_no_margin,holdout_all,290,0.37931,0.362069,26,21,-5,0.560065,212

@@ -13,6 +13,8 @@ This repository contains the custom code and aggregate source data used to repro
 
 The main methodological contribution is an option-shared residual scorer that applies the same correction function to every answer option, preserving exact option-permutation equivariance while training only a small adaptation head.
 
+Repository: https://github.com/Fdk2077/lightweight-residual-fusion-scientific-vqa
+
 ## Repository contents
 
 - `code/` — training, evaluation, ablation, grouped cross-validation, data-scaling, and temporal-audit scripts.

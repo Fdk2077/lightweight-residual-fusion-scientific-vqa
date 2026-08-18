@@ -38,7 +38,10 @@
     "name": "NVIDIA GeForce GTX 1650",
     "device_count": 1,
     "vram_gb": 4.0,
-    "compute_capability": [7,5],
+    "compute_capability": [
+      7,
+      5
+    ],
     "multiprocessor_count": 14
   }
 }

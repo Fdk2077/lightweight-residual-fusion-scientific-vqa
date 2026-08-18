@@ -1,0 +1,7 @@
+experiment_id,question,status,note
+E1,Feature ablations,completed,Eight GPU ablations completed.
+E1C,PMCID-grouped cross-validation,completed,OOF gain confirmed.
+E2,Data scaling,completed,Full MLP scales more smoothly; 8k captures most gain.
+E4A,Temporal candidate audit,completed_pass,"4,788 raw candidates; zero split overlap."
+E4B,Post-cutoff temporal evaluation,completed,"Full=0.3514, BiomedCLIP=0.3537; primary difference -0.0023, cluster p=0.766."
+Writing,Paper drafting,next,"Reframe contribution around stable lightweight adaptation, protocol audit, and temporal limits."
