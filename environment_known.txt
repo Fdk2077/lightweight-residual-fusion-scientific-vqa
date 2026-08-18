@@ -1,0 +1,22 @@
+Archived principal environment
+==============================
+OS: Windows 10 (10.0.19045), AMD64
+Python: 3.11.9
+PyTorch: 2.12.1+cu126
+CUDA runtime: 12.6
+cuDNN: 91002
+Transformers: 5.12.1
+Datasets: 5.0.0
+PEFT: 0.19.1
+Accelerate: 1.14.0
+Evaluate: 0.4.6
+pandas: 3.0.3
+scikit-learn: 1.9.0
+Pillow: 12.2.0
+GPU: NVIDIA GeForce GTX 1650, 4 GB VRAM
+CPU: 4 physical / 8 logical cores (Intel64 Family 6 Model 165)
+RAM: 15.84 GB
+
+Known unresolved dependency metadata
+------------------------------------
+open_clip_torch: used for BiomedCLIP; exact historical version was not captured in reports/environment.json. Do not invent a version; recover it before final public release if possible.

@@ -1,0 +1,16 @@
+# Reference package set based on the archived environment record.
+# CUDA-specific PyTorch wheels may require the appropriate PyTorch index URL.
+torch==2.12.1
+transformers==5.12.1
+datasets==5.0.0
+peft==0.19.1
+accelerate==1.14.0
+evaluate==0.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+Pillow==12.2.0
+numpy
+scipy
+tqdm
+# Used by BiomedCLIP. Exact historical version was not captured; recover before archival if possible.
+open-clip-torch

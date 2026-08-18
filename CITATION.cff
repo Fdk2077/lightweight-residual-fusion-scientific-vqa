@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or source data, please cite the associated manuscript."
+title: "Lightweight residual fusion reveals temporal generalization limits in scientific visual question answering"
+type: software
+authors:
+  - family-names: Kazemi
+    given-names: Farshad
+    email: farshadbb23@gmail.com
+  - family-names: Borna
+    given-names: Keivan
+    email: borna@khu.ac.ir
+repository-code: "TO_BE_FILLED_AFTER_GITHUB_PUBLICATION"
+license: MIT
