@@ -19,7 +19,7 @@ Repository: https://github.com/Fdk2077/lightweight-residual-fusion-scientific-vq
 
 - `code/` — training, evaluation, ablation, grouped cross-validation, data-scaling, and temporal-audit scripts.
 - `source_data/` — aggregate/derived numerical data underlying the main quantitative figures and tables.
-- `docs/EXPERIMENT_REGISTRY_V10.csv` — experiment registry.
+- `docs/EXPERIMENT_REGISTRY.csv` — experiment registry.
 - `REPRODUCIBILITY_MANIFEST.md` — mapping between manuscript analyses, scripts, and source-data files.
 - `DATA_AND_LICENSE_NOTES.md` — data provenance and redistribution boundaries.
 - `environment_archived.json` and `environment_known.txt` — archived environment information.
@@ -40,30 +40,30 @@ The public repository intentionally excludes row-level temporal audit files cont
 ## Main reproduction order
 
 1. Frozen baseline evaluation / prompt protocol:
-   - `code/64_eval_biomedclip_mc_v1.py`
-   - `code/72_eval_openai_clip_mc_v2.py`
+   - `code/64_eval_biomedclip_mc.py`
+   - `code/72_eval_openai_clip_mc.py`
    - BLIP utilities in `code/common_vqa.py`
 2. BLIP LoRA:
    - `code/train_blip_lora_pmc_v2.py`
-   - `code/61_train_blip_cross_attention_lora_v3.py`
+   - `code/61_train_blip_cross_attention_lora.py`
 3. Canonical baseline comparison:
-   - `code/73_compare_blip_clip_biomedclip_paired_v1.py`
+   - `code/73_compare_blip_clip_biomedclip_paired.py`
 4. Residual scorer training:
-   - `code/79_train_joint_clip_biomed_residual_v1.py`
+   - `code/79_train_joint_clip_biomed_residual.py`
 5. Prespecified gate:
-   - `code/80_eval_joint_clip_biomed_holdout_v1.py`
+   - `code/80_eval_joint_clip_biomed_holdout.py`
 6. One-shot canonical evaluation:
-   - `code/81_eval_joint_clip_biomed_test_v1.py`
+   - `code/81_eval_joint_clip_biomed_test.py`
 7. Feature ablations:
-   - `code/run_paper_e1_feature_ablations_v1.py`
+   - `code/run_paper_e1_feature_ablations.py`
 8. PMCID-grouped cross-validation:
-   - `code/run_paper_e1c_group_cv_v1.py`
+   - `code/run_paper_e1c_group_cv.py`
 9. Leakage-free data scaling:
-   - `code/run_paper_e2_data_scaling_v1_ready.py`
+   - `code/run_paper_e2_data_scaling.py`
 10. Post-cutoff temporal audit:
-   - `code/run_paper_e4a_temporal_candidate_audit_v3.py`
+   - `code/run_paper_e4a_temporal_candidate_audit.py`
 11. Temporal evaluation:
-   - `code/run_paper_e4b_temporal_evaluation_v2.py`
+   - `code/run_paper_e4b_temporal_evaluation.py`
 
 ## Random seeds
 
