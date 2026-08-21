@@ -1,5 +1,7 @@
 # Lightweight Residual Fusion for Scientific VQA
 
+[![DOI](https://zenodo.org/badge/1338744814.svg)](https://doi.org/10.5281/zenodo.22045938)
+
 Reproducibility repository for:
 
 **Lightweight residual fusion reveals temporal generalization limits in scientific visual question answering**
@@ -14,6 +16,10 @@ This repository contains the custom code and aggregate source data used to repro
 The main methodological contribution is an option-shared residual scorer that applies the same correction function to every answer option, preserving exact option-permutation equivariance while training only a small adaptation head.
 
 Repository: https://github.com/Fdk2077/lightweight-residual-fusion-scientific-vqa
+
+Archived software release DOI: https://doi.org/10.5281/zenodo.22045939
+
+Zenodo concept DOI (all versions/latest): https://doi.org/10.5281/zenodo.22045938
 
 ## Repository contents
 
@@ -87,7 +93,9 @@ One dependency used for BiomedCLIP (`open_clip_torch`) was not version-recorded 
 
 ## Citation
 
-A `CITATION.cff` file is included for repository citation. The journal citation/DOI should be added after publication.
+For the immutable software snapshot used for the manuscript submission, cite DOI `10.5281/zenodo.22045939`. The DOI badge at the top points to the Zenodo concept record (`10.5281/zenodo.22045938`), which resolves to the latest archived version.
+
+A `CITATION.cff` file is included for machine-readable repository citation. The journal article citation/DOI should be added after publication.
 
 ## License
 
