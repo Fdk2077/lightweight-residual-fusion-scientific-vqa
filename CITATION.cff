@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software or source data, please cite this software and the associated manuscript."
-title: "Lightweight residual fusion reveals temporal generalization limits in scientific visual question answering"
-version: 1.0.0
+title: "Article-grouped and post-cutoff evaluation reveals limits of parameter-efficient adaptation in scientific visual question answering"
+version: 1.1.0
 type: software
-abstract: "Reproducibility code and aggregate source data for an option-shared residual scorer over frozen CLIP and BiomedCLIP representations for scientific visual question answering on PMC-VQA, including grouped validation, data-scaling analyses, and post-cutoff temporal evaluation."
+abstract: "Reproducibility code and aggregate source data for parameter-efficient option-shared residual adaptation over frozen CLIP and BiomedCLIP representations on PMC-VQA, including article-grouped validation, leakage-free data scaling, post-cutoff temporal evaluation, an end-to-end efficiency audit, and an image-correspondence shuffle control."
 authors:
   - family-names: Kazemi
     given-names: Farshad
@@ -20,6 +20,7 @@ keywords:
   - CLIP
   - parameter-efficient adaptation
   - temporal generalization
+  - article-grouped evaluation
   - reproducibility
 repository-code: "https://github.com/Fdk2077/lightweight-residual-fusion-scientific-vqa"
 license: MIT
