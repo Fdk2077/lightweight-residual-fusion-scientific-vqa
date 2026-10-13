@@ -25,7 +25,7 @@ import torch
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
-import run_paper_e1_feature_ablations_v1 as e1
+import run_paper_e1_feature_ablations as e1
 
 PMCID_RE = re.compile(r"(PMC\d+)", re.IGNORECASE)
 DEFAULT_MODELS = ("E1_full", "E1_linear")
