@@ -4,4 +4,6 @@ E1C,PMCID-grouped cross-validation,completed,OOF gain confirmed.
 E2,Data scaling,completed,Full MLP scales more smoothly; 8k captures most gain.
 E4A,Temporal candidate audit,completed_pass,"4,788 raw candidates; zero split overlap."
 E4B,Post-cutoff temporal evaluation,completed,"Full=0.3514, BiomedCLIP=0.3537; primary difference -0.0023, cluster p=0.766."
-Writing,Paper drafting,next,"Reframe contribution around stable lightweight adaptation, protocol audit, and temporal limits."
+E5,End-to-end efficiency audit,completed,"GTX 1650 audit: Full stack 345.6M total parameters; 32,961 task-specific parameters per seed; 1.07 questions/s sequential throughput."
+E6,Image-correspondence shuffle control,completed,"Canonical reproduction passed exactly; Full=0.3800 clean and 0.2463 mean shuffled accuracy across seeds 42, 7, 123."
+Writing,Revised manuscript and reproducibility release,next,"Frame contribution around parameter-efficient adaptation, article grouping, temporal limits, and post-hoc controls."
