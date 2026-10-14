@@ -125,4 +125,4 @@ The public repository includes the executed scripts and derived numerical source
 
 ## Release integrity
 
-The `v1.1.0` Zenodo snapshot is archived under DOI `10.5281/zenodo.23376674`. `SHA256SUMS.txt` records hashes for the files included in that tagged release.
+The `v1.1.0` Zenodo snapshot is archived under DOI `10.5281/zenodo.23376674`. The tagged release contains its own `SHA256SUMS.txt`; the `main` branch may include later metadata-only updates.
