@@ -17,7 +17,7 @@ The revised study treats the option-shared residual scorer as a controlled param
 
 Repository: https://github.com/Fdk2077/lightweight-residual-fusion-scientific-vqa
 
-Archived software release DOI: https://doi.org/10.5281/zenodo.22045939
+Version v1.1.0 DOI: https://doi.org/10.5281/zenodo.23376674
 
 Zenodo concept DOI (all versions/latest): https://doi.org/10.5281/zenodo.22045938
 
@@ -97,7 +97,7 @@ One dependency used for BiomedCLIP (`open_clip_torch`) was not version-recorded 
 
 ## Citation
 
-For the immutable software snapshot used for the manuscript submission, cite DOI `10.5281/zenodo.22045939`. The DOI badge at the top points to the Zenodo concept record (`10.5281/zenodo.22045938`), which resolves to the latest archived version.
+For the immutable software snapshot used with the revised manuscript, cite DOI `10.5281/zenodo.23376674` (version `v1.1.0`). The DOI badge at the top points to the Zenodo concept record (`10.5281/zenodo.22045938`), which resolves to the latest archived version.
 
 A `CITATION.cff` file is included for machine-readable repository citation. The journal article citation/DOI should be added after publication.
 
@@ -114,7 +114,6 @@ The associated journal article is licensed separately under the terms selected w
 - Farshad Kazemi: `farshadbb23@gmail.com`
 - Keivan Borna: `borna@khu.ac.ir`
 
-
 ## Revised Stage 3 controls
 
 The revised manuscript adds two post-hoc analyses that do not retrain or select models:
@@ -126,4 +125,4 @@ The public repository includes the executed scripts and derived numerical source
 
 ## Release integrity
 
-The previous `SHA256SUMS.txt` described the earlier immutable submission snapshot and is intentionally removed from this revision branch. Fresh checksums must be generated from the exact files included in the next tagged/Zenodo release.
+The `v1.1.0` Zenodo snapshot is archived under DOI `10.5281/zenodo.23376674`. `SHA256SUMS.txt` records hashes for the files included in that tagged release.
