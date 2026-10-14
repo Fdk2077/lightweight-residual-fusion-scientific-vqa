@@ -39,7 +39,7 @@ from PIL import Image
 from statistics import NormalDist
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-TRAIN_SCRIPT = SCRIPT_DIR / "79_train_joint_clip_biomed_residual_v1.py"
+TRAIN_SCRIPT = SCRIPT_DIR / "79_train_joint_clip_biomed_residual.py"
 VALID_LABELS = ("A", "B", "C", "D")
 FINAL_SUMMARY_NAME = "temporal_evaluation_summary.json"
 

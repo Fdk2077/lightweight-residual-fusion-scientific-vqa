@@ -25,7 +25,7 @@ import torch
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
-import run_paper_e1_feature_ablations_v1 as e1
+import run_paper_e1_feature_ablations as e1
 
 PMCID_RE = re.compile(r"(PMC\d+)", re.IGNORECASE)
 DEFAULT_EXPERIMENTS = (
@@ -122,7 +122,7 @@ def main() -> None:
     ap.add_argument("--root", type=Path, required=True,
                     help="Directory containing joint_train12000_dev1000_multiseed_v1")
     ap.add_argument("--e1-script-dir", type=Path, default=SCRIPT_DIR,
-                    help="Directory containing run_paper_e1_feature_ablations_v1.py")
+                    help="Directory containing run_paper_e1_feature_ablations.py")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--only", nargs="*", default=list(DEFAULT_EXPERIMENTS))
     ap.add_argument("--folds", type=int, default=5)

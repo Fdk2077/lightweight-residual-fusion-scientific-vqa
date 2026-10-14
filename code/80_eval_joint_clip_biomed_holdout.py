@@ -31,7 +31,7 @@ import torch
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-TRAIN_SCRIPT = SCRIPT_DIR / "79_train_joint_clip_biomed_residual_v1.py"
+TRAIN_SCRIPT = SCRIPT_DIR / "79_train_joint_clip_biomed_residual.py"
 
 
 def parse_args() -> argparse.Namespace:

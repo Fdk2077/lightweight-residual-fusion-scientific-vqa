@@ -13,5 +13,5 @@ No credentials are intentionally included. The temporal audit supports an option
 ## Licensing decision
 
 - Custom repository code: MIT License
-- Associated article: intended CC BY 4.0 at Communications Medicine publication stage
+- Associated article: licensed separately under the terms selected with the eventual publisher
 - Third-party data/models/images: original provider licenses apply

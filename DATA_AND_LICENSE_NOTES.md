@@ -14,8 +14,8 @@ The internal reproducibility package contains row-level temporal quality-control
 
 The temporal selection and evaluation logic is fully represented by:
 
-- `code/run_paper_e4a_temporal_candidate_audit_v3.py`
-- `code/run_paper_e4b_temporal_evaluation_v2.py`
+- `code/run_paper_e4a_temporal_candidate_audit.py`
+- `code/run_paper_e4b_temporal_evaluation.py`
 
 and can be rerun by users who obtain PMC-VQA through the original distribution channel.
 
@@ -26,3 +26,13 @@ Qualitative examples used in the manuscript originate from PubMed Central source
 ## Third-party models
 
 This repository does not redistribute pretrained model weights. Users should obtain BLIP, CLIP, and BiomedCLIP from their original providers and follow the corresponding licenses and terms.
+
+
+## Stage 3 controls
+
+The revised manuscript adds an efficiency audit and an image-correspondence shuffle control. Public source data include only aggregate/per-shuffle numerical outputs; embedding caches, raw images, local absolute paths, and row-level question/answer text are not redistributed.
+
+The corresponding scripts are:
+
+- `code/run_efficiency_audit_v1.py`
+- `code/run_image_shuffle_control_v4_precision_fixed.py`
