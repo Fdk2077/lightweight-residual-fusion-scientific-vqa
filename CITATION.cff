@@ -13,6 +13,10 @@ authors:
     given-names: Keivan
     email: borna@khu.ac.ir
     affiliation: "Faculty of Mathematical Sciences and Computer, Kharazmi University, Tehran, Iran"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23376674"
+    description: "Archived software release v1.1.0"
 keywords:
   - scientific visual question answering
   - medical visual question answering
